@@ -1,0 +1,68 @@
+@media(max-width:600px) {
+
+    .input-box {
+        gap: 40px;
+        padding: 30px;
+    }
+
+    .left-box {
+        gap: 50px;
+    }
+
+    .right-box {
+        gap: 50px;
+        align-items: end;
+    }
+
+    input {
+        padding: 5px 10px;
+        width: 150px;
+    }
+
+    select {
+        padding: 5px 10px;
+        width: 100px;
+    }
+
+    label,
+    p {
+        font-size: 17px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 17px;
+    }
+
+    .swap {
+        position: absolute;
+        top: 140px;
+        right: 140px;
+    }
+}
+
+@media(max-width:380px) {
+    .input-box {
+        flex-direction: column;
+    }
+
+    .left-box {
+        gap: 20px;
+
+    }
+
+    .right-box {
+        gap: 10px;
+        align-items: center;
+    }
+
+    button {
+        font-size: 15px;
+    }
+
+    .swap {
+        position: absolute;
+        top: 205px;
+        right: 65px;
+    }
+}
