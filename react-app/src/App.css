@@ -53,6 +53,8 @@ select {
   padding: 10px;
   border-radius: 20px;
   border: none;
+  font-weight: bold;
+  font-size: 15px;
   background-color: white;
 }
 
@@ -69,6 +71,6 @@ button {
 
 .swap {
   position: absolute;
-  top: 212px;
-  right: 190px;
+  top: 215px;
+  right: 220px;
 }

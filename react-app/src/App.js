@@ -23,12 +23,11 @@ function App() {
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to])
   }
-  if (amount < 0) {
-    setAmount(0)
-  } else if (amount < 1 || convertedAmount < 1) {
+
+  if (amount < 1 || convertedAmount < 1) {
     setAmount()
   }
-  
+
   return (
     <div>
       <div>
