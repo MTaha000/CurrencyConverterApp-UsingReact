@@ -57,7 +57,7 @@ function App() {
             <div>
               <InputBox
                 label="To"
-                amount={convertedAmount}
+                amount={Math.round(convertedAmount * 100)/100}
                 currencyOptions={options}
                 onCurrencyChange={(currency) => setTo(currency)}
                 selectCurrency={to}
