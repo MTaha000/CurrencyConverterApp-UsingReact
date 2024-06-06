@@ -22,7 +22,7 @@ function InputBox({
                     type='number'
                     placeholder='Amount'
                     disabled={amountDisable}
-                    value={amount}
+                    value={Math.round(amount * 100) / 100}
                     onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
                 >
                 </input>
